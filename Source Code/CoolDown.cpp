@@ -6,7 +6,7 @@ int main() {
     string s;
     string r="";
     bool flag=true;
-    cout<<"Ìý Ëµ ½´ ×Ï É¢ ÈÈ ±È ½Ï ¿ì : "<<endl;
+    cout<<"å¬ è¯´ é…± ç´« æ•£ çƒ­ æ¯” è¾ƒ å¿« :  "<<endl;
     cout<<endl;
     while (getline(cin,s)){
         for(int i=0;i<s.length();i++){
@@ -25,11 +25,11 @@ int main() {
         cout<<endl;
         printf("%s\n",r.c_str());
         cout<<endl;
-        cout<<"------»Ø³µ¼ÌÐøÉ¢ÈÈ------";
+        cout<<"------å›žè½¦ç»§ç»­æ•£çƒ­------";
         r="";
         getchar();
         system("cls");
-        cout<<"Ìý Ëµ ½´ ×Ï É¢ ÈÈ ±È ½Ï ¿ì : "<<endl;
+        cout<<"å¬ è¯´ é…± ç´« æ•£ çƒ­ æ¯” è¾ƒ å¿« :  "<<endl;
     }
     return 0;
 }
